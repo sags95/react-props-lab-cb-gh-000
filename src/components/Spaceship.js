@@ -6,6 +6,7 @@ export default class Spaceship extends React.Component{
   render(){
     return(
       <div className="spaceship">
+        <div>{this.props.name}</div>
         
       </div>
     );
